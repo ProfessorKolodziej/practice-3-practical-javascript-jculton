@@ -5,3 +5,28 @@
 // - Do not use onclick - use addEventListener instead
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
+
+const myName = "Jack";
+const myAge = 20;
+
+console.log(myAge)
+
+// Practical Java Script
+// Show and hide an element on the page
+
+// Find the element to hide
+const toggledParagraph = document.querySelector(".show");
+console.log(toggleParagraph);
+
+// Write a function that toggles the show/hide glasses
+function toggleParagraph() {
+	toggledParagraph.classList.toggle("hide");
+	toggledParagraph.classList.toggle("show");
+	console.log("My toggled function");
+	console.log(toggledParagraph);
+}
+
+//	Find the button and make something happen when we click it
+const toggleButton = document.querySelector("#toggle");
+
+toggleButton.addEventListener("click", toggleParagraph);
